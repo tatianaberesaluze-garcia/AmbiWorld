@@ -64,8 +64,13 @@ Apoya tanto a estudiantes de chino como a investigadores en procesamiento de len
 
 🎧 Archivos de audio
 
-Solo se incluyen dos audios de ejemplo por motivos de espacio.
-Los audios completos utilizados en la versión original del proyecto pueden solicitarse a la autora o consultarse en la carpeta privada del repositorio.
+La aplicación incluye audios en formato `.mp3` con pronunciaciones en **chino mandarín**, asociados a cada palabra ambigua.  
+Estos archivos permiten escuchar la palabra y su pinyin dentro de la app AmbiWorld.
+
+📂 Carpeta: `/app/audio/`  
+🎧 Detalles técnicos y enlace de descarga: [readme-audios](app/audio/readme-audios)
+Se incluyen cien audios de ejemplo.
+Los audios completos utilizados en la versión original del proyecto pueden solicitarse a la autora.
 
 🔍 Posibles Aplicaciones
 	•	Aprendizaje de idiomas asistido por IA.
