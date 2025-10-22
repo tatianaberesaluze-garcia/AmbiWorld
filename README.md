@@ -1,4 +1,4 @@
-# AmbiWorld App
+# AmbiWorld App - Desambiguación de Palabras Chinas 
 
 AmbiWorld es una demo interactiva desarrollada en Streamlit que visualiza los diferentes significados de palabras ambiguas en chino mandarín mediante un sistema inspirado en órbitas planetarias.
 
