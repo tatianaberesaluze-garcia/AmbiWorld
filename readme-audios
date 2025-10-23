@@ -1,0 +1,55 @@
+# 🎧 Audios — AmbiWorld App
+
+Esta carpeta contiene los **archivos MP3** con la pronunciación en mandarín de las palabras ambiguas utilizadas en la aplicación **AmbiWorld**.
+
+---
+
+## 📁 Estructura de carpetas
+
+audio/
+├── audios1/
+├── audios2/
+├── audios3/
+├── README_AUDIOS.md
+└── (algunos .mp3 sueltos)
+
+Los audios están distribuidos en tres subcarpetas (`audios1`, `audios2`, `audios3`) para evitar límites de tamaño.  
+También puede haber algunos archivos MP3 directamente dentro de la carpeta principal `audio/`.
+
+---
+
+## 📝 Convención de nombres
+
+Cada archivo debe tener el **mismo nombre que la palabra en chino** a la que corresponde, sin espacios ni caracteres adicionales.
+
+**Ejemplos:**
+
+就.mp3
+的.mp3
+是.mp3
+我.mp3
+
+> 💡 El nombre del archivo debe coincidir exactamente con el valor en la columna **`palabra`** del dataset `datos.csv`.
+
+---
+
+## 🧠 Funcionamiento en la app
+
+La aplicación **busca automáticamente** los archivos de audio dentro de todas las rutas posibles de la carpeta `audio/`.
+
+**Ejemplo:**  
+Si el usuario selecciona la palabra `就`, la app buscará en:
+
+audio/就.mp3
+audio/audios1/就.mp3
+audio/audios2/就.mp3
+audio/audios3/就.mp3
+
+## ⚠️ Nota legal
+
+Estos audios se utilizan **exclusivamente con fines educativos y demostrativos** dentro del proyecto AmbiWorld.  
+No deben distribuirse ni reutilizarse con fines comerciales sin autorización expresa.
+
+✍️ **Autora:**  
+**Tatiana Beresaluze García — 2025**  
+Proyecto educativo 
